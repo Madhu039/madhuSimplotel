@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .home-text {
+            display: center;
+            font-size: 25px;
+            padding-left: 25px;
+            display: inline-block;
+        }
+
+        .container-header {
+            text-align: center;
+            background-color: rgb(248, 117, 117);
+            height: auto;
+        }
+
+        .sec{
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            width: auto;
+            padding-left: 30px;
+            justify-content:space-between;
+            background-image: linear-gradient(to right, rgb(251, 251, 196), rgb(253, 214, 214));
+
+        }
+        .overview{
+            font-size: 20px;
+            padding-top: 70px;
+        }
+        .btn {
+            border: none;
+            font-size: 15px;
+            color: white;
+            text-decoration: none;
+            height: 50px;
+            width: 200px;
+            background-color: rgb(255, 139, 139);
+        }
+        .art {
+            display: flex;
+            padding-top: 100px;
+            padding-left: 80px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .sub {
+            height: 200px;
+            width: 220px;
+            display: block;
+        
+        }
+
+        .text {
+            padding-top: 80px;
+            padding-left: 170px;
+        }
+
+        .text-block {
+            padding-top: 5px;
+            padding-left: 20px;
+            height: 170px;
+            width: 300px;
+            background-color: rgba(247, 106, 106, 0.7);
+
+        }
+        @media only screen and (max-width:500px) {
+            .main{
+              width: 380px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <div class="home-text"><b>Home</b> </div>
+            <div class="home-text"><b>Order</b></div>
+            <div class="home-text"><b>Food</b></div>
+            <div class="home-text"><b>Restaurant</b></div>
+            <div class="home-text"><b>Testimonials</b></div>
+            <div class="home-text"><b>Contact Us</b></div>
+            <div class="home-text"> <img src="menu1.png" width="20px" height="25px"></div>
+    </header>
+
+    <section>
+        <div class="sec">
+            <div class="overview">
+                <h1> <b>LOREM IPSUM</b> </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus<br>
+                    id est vitae dolor rhoncus tristique. Maecenas metus quam,<br>
+                    rhoncus euismod lorem in, sollicitudin viverra eros. Donec<br>
+                    dictum luctus quam ut tristique. Curabitur nec faucibus purus.<br>
+                    Quisque congue sem nec justo mollis, in tincidunt erat pretium.<br>
+                    Sed pulvinar, massa ac porta viverra.
+                </p><br>
+                <button class="btn">Click Me</button>
+            </div>
+            <div class="main ">
+                <img class="main1" src="main 1.jpg" width="750px" height="auto">
+            </div>
+
+
+
+
+            <div class=" art">
+                <div class="sub-img">
+                    <img class="sub" src="sub2.jpg" alt="">
+                    <img class="sub" src="sub1.jpg" alt="">
+                </div>
+                <img class="sb" src="sub3.jpg" alt="" width="auto" height="400px">
+                <div class=" text">
+                    <div class="text-block">
+                        <p>LOREM IPSUM</p>
+                        <h2>LOREM IPSUM<br>
+                            SET ADEMIR</h2>
+
+                        <h5 class="click">Click <img src="icon.png" height="15px" alt=""></h5>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <h1></h1>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
